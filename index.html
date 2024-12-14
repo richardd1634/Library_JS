@@ -9,6 +9,47 @@
         <script src="script.js" defer></script>
     </head>
     <boby>
-
+        <div class="main-container">
+            <div class="header">
+                <H1 class="title">My Library</H1>
+                <button id="new-book">New Book</button>
+            </div>
+            <div class="content-container">
+                <h2 class="subtitle">Your Books</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3 class="card-title">book title</h3>
+                        <p class="card-content">
+                          book info
+                        </p>
+                        <div class="card-icons">
+                          <img
+                            alt="favorite"
+                            class="card-icon"
+                          />
+                          <img
+                            alt="read"
+                            class="card-icon"
+                          />
+                          <img
+                            alt="delete"
+                            class="card-icon"
+                          />
+                        </div>
+                      </div>
+                </div>
+                <div class="sidebar-container">
+                    <label for="new-title">Title</label>
+                    <input type="text" id="new-title">
+                    <label for="new-author">Author</label>
+                    <input type="text" class="new-author">
+                    <label for="new-pages">Number of pages</label>
+                    <input type="number" class="new-pages">
+                    <label for="new-read">Have you read it?</label>
+                    <input type="text" class="new-read">
+                    <button type="submit">submit</button>
+                </div>
+            </div>
+        </div>
     </boby>
 </html>
